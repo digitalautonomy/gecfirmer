@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Signature Id="Signature" xmlns="http://www.w3.org/2000/09/xmldsig#">
+  <SignedInfo>
+    <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+
+    <Reference URI="#signedData">
+      <Transforms>
+        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      </Transforms>
+      <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <DigestValue>a+CepOhOQNgzO11acJFih+moAbM=</DigestValue>
+    </Reference>
+
+    <Reference URI="#SignedProperties" Type="http://uri.etsi.org/01903#SignedProperties">
+      <Transforms>
+        <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      </Transforms>
+      <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <DigestValue>BeyaYYcLxchl6NRgUDRcwjZLeB0=</DigestValue>
+    </Reference>
+    
+  </SignedInfo>
+  <SignatureValue>gBs0/Jp2IX9jtU+Bmzrgni9DjHQba//O0r2ehpHk9Z5zvPRe2K2l3ztptMHd9P02UTZN09bsbEIOcAmPvCqHfGYhwl/8+PswsxKlJRF/Wh/DC0+wEiV97+/i8P3nQpOZ/Kbv/BhMjGwCV8KASW8P5S3n/cZrGWqiG4PGUUmguWMs155u/Aa3k79ucaVV6o6mCkFAUrNsgpQkbfpZE1IbNY2YbfgGza77waNX1SCy6YtyJcFHT6Rngif9i2aisC3OqUZYU8nIz1rE/JcP8C8OETdNT/wgJ2tPYyCuZd4umSrzaOcJdSoL0zv00IQMju24woSVwmKC5Cfo2LBzeAtzzw==</SignatureValue>
+  
+  <KeyInfo>
+    <X509Data>
+      <X509Certificate>MIIEQDCCAigCAhAAMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAkVDMSAwHgYDVQQKDBdEaWdpdGFsIEF1dG9ub215IENlbnRlcjEoMCYGA1UECwwfRGlnaXRhbCBBdXRvbm9teSBDZW50ZXIgVGVzdCBDQTEhMB8GA1UEAwwYQ0FEIFRlc3QgSW50ZXJtZWRpYXRlIENBMB4XDTIyMTExNzE2MTcyOVoXDTMzMDIyMjE2MTcyOVowTzELMAkGA1UEBhMCRUMxITAfBgNVBAMMGFRlc3R1cyBGb291cyBCYXJpdXMgUXV1eDEdMBsGCisGAQQBgqg7AwsMDTE3MTIzOTkxMjMwMDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxYmhNOEjF6xSXtPXS36TBu1txAK0/anU1x5vpb6h/cNe8zChPmBTGpfAuHMYw8NseG6RdqswcxMVo4osAOv4Z1kDht77RP1yOZ8xyhHB/qkTFe4ktP1O132pyxgxJ9MsD5yLiZ8UenfqH0vX4gJHqZ2Kkc52oCGE6aT/zzYRvB5lksyyhmvaQvuFFKAWqoooOmdxf+JKfC61ePuARt2D/vj6s3y3yJG+aJDvFrkTbW+8J7fKEd2O8PtnvyY7SHsFq9poNrG18hFCEp7AAitOZyHIvQaruCkH1MGr2KWPn5KqNqFUAff7KHVNhEEU09Wp2mejeS6XQ45qMGA9ZpNY/AgMBAAEwDQYJKoZIhvcNAQELBQADggIBAIZpkNbj6rR2dSJ9cbca+tMyC4hQukLFhxWpfn1S86evms/rvdTB5CNaYv6j1vnnU1Zej+kUPhJqLKwZsscaQrlVb+E1Pz4IeRag8KyJNmi0fytxv0Nqz3ibbpwTRk5g9+y5xwSJHKNdESucD/yNLF2d/kPr7ne2M95we7elinPiY43adtBWYbe/34a/StagT8VF3UBUWQ0rffbiDQe/UdfUcrkphIHCrT2/E8DhpC/4pPZ6RjRZYOwR9/MLgZ3fz8jpQ1MTrRytDcygNXlAbhIEa3HTyO4CPx1s1XTL/gLgJYQG8GyYeSsttKNODP/cwQjpYx5KFkiN22TsddNNVCDoJYmBxjACJRJzzU19m/GV2K4cD7vGbShKvPpP5na3afO1mZsUKe93s/WmvV5z19hQZKDcZEJVy9nId682PaluT6CIQvDg7SJkJGW9a9gJGFfh/G1WLwEVzohZu6ChZHAvCPwgVM673NCbD8ezlzCHC31YIMXK2TShK/ung4KotHUCX3ZUw4HwrWdJhvr4n1GS8GCPbCmNxOk1wleUNxfwqU2kdoo++BZdX83zPof32HzbDs50xbAZtk+ZUkKhTP8qKm/RldHSeTXL2PU3M5O5aRmFdGLAmLovqYyroGzIs0GjsZlOYoG9qzf2hHSM1wc+fw6ODrCm9UZsHAiuP/H0</X509Certificate>
+    </X509Data>
+  </KeyInfo>
+  <Object>
+    <xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature">
+      <xades:SignedProperties Id="SignedProperties">
+        <xades:SignedSignatureProperties>
+          <xades:SigningTime>2022-11-17T17:06:53Z</xades:SigningTime>
+          <xades:SigningCertificate>
+            <xades:Cert>
+              <xades:CertDigest>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <DigestValue>8A7PI8+ZcCXDWJ/9DHGTkIjhXmo=</DigestValue>
+              </xades:CertDigest>
+              <xades:IssuerSerial>
+                <X509IssuerName>CN=CAD Test Intermediate CA,OU=Digital Autonomy Center Test CA,O=Digital Autonomy Center,C=EC</X509IssuerName>
+                <X509SerialNumber>4096</X509SerialNumber>
+              </xades:IssuerSerial>
+            </xades:Cert>
+          </xades:SigningCertificate>
+        </xades:SignedSignatureProperties>
+      </xades:SignedProperties>
+    </xades:QualifyingProperties>
+  </Object>
+</Signature>

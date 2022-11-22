@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>FOOBARIU</razonSocial><ruc>1712121212001</ruc><claveAcceso>0411202201171212121200120041000001796781234567815</claveAcceso><codDoc>01</codDoc><estab>004</estab><ptoEmi>100</ptoEmi><secuencial>000179678</secuencial><dirMatriz>QUICENTRO</dirMatriz></infoTributaria><infoFactura><fechaEmision>04/11/2022</fechaEmision><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>05</tipoIdentificacionComprador><razonSocialComprador>ONE SOME  </razonSocialComprador><identificacionComprador>1712311123</identificacionComprador><direccionComprador>Dir: S/N</direccionComprador><totalSinImpuestos>17.19</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><baseImponible>17.19</baseImponible><valor>2.06</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>19.25</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>19.25</total></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>103</codigoPrincipal><codigoAuxiliar>137</codigoAuxiliar><descripcion>STUFF AND THINGIES THAT IS GO</descripcion><cantidad>1.00</cantidad><precioUnitario>7.589286</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>7.59</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>7.59</baseImponible><valor>0.91</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>123</codigoPrincipal><codigoAuxiliar>157</codigoAuxiliar><descripcion>ANOTHER THINGY TO EAT YOOO</descripcion><cantidad>1.00</cantidad><precioUnitario>8.482143</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>8.48</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>8.48</baseImponible><valor>1.02</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>108</codigoPrincipal><codigoAuxiliar>142</codigoAuxiliar><descripcion>APLI ORDEN</descripcion><cantidad>1.00</cantidad><precioUnitario>1.116071</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>1.12</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>1.12</baseImponible><valor>0.13</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Sistema Contable">FOOBA v.1.1</campoAdicional><campoAdicional nombre="Dirección">S/N</campoAdicional><campoAdicional nombre="Email">ugh@example.com</campoAdicional><campoAdicional nombre="Teléfono">S/N</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature620190">
+<ds:SignedInfo Id="Signature-SignedInfo133964">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID1014990" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature620190-SignedProperties976134">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>d708/gBDlzDrnangQHtqfPC9pks=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1696448">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>nZ80bTJeANgF8q+gB9k5o+oR6XU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-723328" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>a+CepOhOQNgzO11acJFih+moAbM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue984886">
+WWBr3aXYosXCYNMU9f8CwSkd9AoiUsfoP/h7LQtI2ldC2todMRSuxrwuB4q6Z8lJ8T/UbZJVjfja
+X3XtK5G3FYkQ+u21i7d4dKdmyrQN8S7hmoO66bnDQGNCH3AYF0za102I3PRWsvLuprphSEPi86oz
+WGv20sbea5azqfvs7JT/pBXazZSEoyXVhtrHkILlsc3F8hgeKG8QtT9izPvLOHrw41oxbJ8RFc08
+HtXsopWX4EPDRF+YeXxpHHltz8KgJ4S7aHZX2RV7EOf2LdNpfl6mT6OHzktoJfnYcUFnI+rsQh4V
+x15xb7JSlyvZsGBelTtdcMDFQQi/Qg0ppzbOHQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1696448">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEQDCCAigCAhAAMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAkVDMSAwHgYDVQQKDBdEaWdp
+dGFsIEF1dG9ub215IENlbnRlcjEoMCYGA1UECwwfRGlnaXRhbCBBdXRvbm9teSBDZW50ZXIgVGVz
+dCBDQTEhMB8GA1UEAwwYQ0FEIFRlc3QgSW50ZXJtZWRpYXRlIENBMB4XDTIyMTExNzE2MTcyOVoX
+DTMzMDIyMjE2MTcyOVowTzELMAkGA1UEBhMCRUMxITAfBgNVBAMMGFRlc3R1cyBGb291cyBCYXJp
+dXMgUXV1eDEdMBsGCisGAQQBgqg7AwsMDTE3MTIzOTkxMjMwMDEwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCxYmhNOEjF6xSXtPXS36TBu1txAK0/anU1x5vpb6h/cNe8zChPmBTGpfAu
+HMYw8NseG6RdqswcxMVo4osAOv4Z1kDht77RP1yOZ8xyhHB/qkTFe4ktP1O132pyxgxJ9MsD5yLi
+Z8UenfqH0vX4gJHqZ2Kkc52oCGE6aT/zzYRvB5lksyyhmvaQvuFFKAWqoooOmdxf+JKfC61ePuAR
+t2D/vj6s3y3yJG+aJDvFrkTbW+8J7fKEd2O8PtnvyY7SHsFq9poNrG18hFCEp7AAitOZyHIvQaru
+CkH1MGr2KWPn5KqNqFUAff7KHVNhEEU09Wp2mejeS6XQ45qMGA9ZpNY/AgMBAAEwDQYJKoZIhvcN
+AQELBQADggIBAIZpkNbj6rR2dSJ9cbca+tMyC4hQukLFhxWpfn1S86evms/rvdTB5CNaYv6j1vnn
+U1Zej+kUPhJqLKwZsscaQrlVb+E1Pz4IeRag8KyJNmi0fytxv0Nqz3ibbpwTRk5g9+y5xwSJHKNd
+ESucD/yNLF2d/kPr7ne2M95we7elinPiY43adtBWYbe/34a/StagT8VF3UBUWQ0rffbiDQe/UdfU
+crkphIHCrT2/E8DhpC/4pPZ6RjRZYOwR9/MLgZ3fz8jpQ1MTrRytDcygNXlAbhIEa3HTyO4CPx1s
+1XTL/gLgJYQG8GyYeSsttKNODP/cwQjpYx5KFkiN22TsddNNVCDoJYmBxjACJRJzzU19m/GV2K4c
+D7vGbShKvPpP5na3afO1mZsUKe93s/WmvV5z19hQZKDcZEJVy9nId682PaluT6CIQvDg7SJkJGW9
+a9gJGFfh/G1WLwEVzohZu6ChZHAvCPwgVM673NCbD8ezlzCHC31YIMXK2TShK/ung4KotHUCX3ZU
+w4HwrWdJhvr4n1GS8GCPbCmNxOk1wleUNxfwqU2kdoo++BZdX83zPof32HzbDs50xbAZtk+ZUkKh
+TP8qKm/RldHSeTXL2PU3M5O5aRmFdGLAmLovqYyroGzIs0GjsZlOYoG9qzf2hHSM1wc+fw6ODrCm
+9UZsHAiuP/H0
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sWJoTThIxesUl7T10t+kwbtbcQCtP2p1Nceb6W+of3DXvMwoT5gUxqXwLhzGMPDbHhukXarMHMTF
+aOKLADr+GdZA4be+0T9cjmfMcoRwf6pExXuJLT9Ttd9qcsYMSfTLA+ci4mfFHp36h9L1+ICR6mdi
+pHOdqAhhOmk/882EbweZZLMsoZr2kL7hRSgFqqKKDpncX/iSnwutXj7gEbdg/74+rN8t8iRvmiQ7
+xa5E21vvCe3yhHdjvD7Z78mO0h7BavaaDaxtfIRQhKewAIrTmchyL0Gq7gpB9TBq9ilj5+SqjahV
+AH3+yh1TYRBFNPVqdpno3kul0OOajBgPWaTWPw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature620190-Object935731"><etsi:QualifyingProperties Target="#Signature620190"><etsi:SignedProperties Id="Signature620190-SignedProperties976134"><etsi:SignedSignatureProperties><etsi:SigningTime>2022-11-22T16:05:57+00:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>8A7PI8+ZcCXDWJ/9DHGTkIjhXmo=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=CAD Test Intermediate CA,OU=Digital Autonomy Center Test CA,O=Digital Autonomy Center,C=EC</ds:X509IssuerName><ds:X509SerialNumber>4096</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-723328"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>
